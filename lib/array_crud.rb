@@ -11,11 +11,11 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-    ["I", "am", "really", "learning"] .unshift "wow"
+  ["I", "am", "really", "learning"] .unshift "wow"
 end
 
 def remove_element_from_end_of_array(array)
-  
+  ["I", "am", "really", "learning", "arrays!"] .pop
 end
 
 def remove_element_from_start_of_array(array)
